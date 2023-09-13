@@ -4,8 +4,8 @@
 3.  cd Sources Kernel => drivers
 4.  nano Kconfig
     add
-	- source "drivers/bus/Kconfig"
-	- source "drivers/rtl8188eus/Kconfig"
+    - source "drivers/bus/Kconfig"
+    - source "drivers/rtl8188eus/Kconfig"
     - source "drivers/rtl8188fu/Kconfig"
     - source "drivers/rtl8192eu/Kconfig"
     - source "drivers/rtl8192fu/Kconfig"
@@ -34,6 +34,6 @@
     - [M] Realtek 8192F/8725AU USB WiFi
     - [M] Realtek 8812A USB WiFi
     - [M] Realtek 8814A USB WiFi
-	<save>  
-	<exit>
-14. make O=../out -j$(nproc)
+14. save  
+15. exit
+16. make O=../out -j$(nproc)
