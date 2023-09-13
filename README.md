@@ -14,13 +14,13 @@
     - source "drivers/rtl8814au/Kconfig"
 7.  nano Makefile
 8.  add
-    - obj-y					+= bus/
-    - obj-y					+= rtl8188eus/
-    - obj-y					+= rtl8188fu/
-    - obj-y					+= rtl8192eu/
-    - obj-y					+= rtl8192fu
-    - obj-y					+= rtl8812au/
-    - obj-y					+= rtl8814au/
+    - obj-y			+= bus/
+    - obj-y			+= rtl8188eus/
+    - obj-y			+= rtl8188fu/
+    - obj-y			+= rtl8192eu/
+    - obj-y			+= rtl8192fu
+    - obj-y			+= rtl8812au/
+    - obj-y			+= rtl8814au/
 9.  cd Sources Kernel
 10.  export ARCH=arm64
 11.  export CROSS_COMPILE=aarch64-linux-gnu-
@@ -35,7 +35,7 @@
     - [M] Realtek 8192F/8725AU USB WiFi
     - [M] Realtek 8812A USB WiFi
     - [M] Realtek 8814A USB WiFi
-17. save  
-18. exit
+17. <save>  
+18. <exit>
 19. make O=../out -j$(nproc)
 ```
