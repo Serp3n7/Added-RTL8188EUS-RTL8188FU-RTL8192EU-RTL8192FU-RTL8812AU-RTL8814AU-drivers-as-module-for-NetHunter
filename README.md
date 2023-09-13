@@ -26,7 +26,7 @@
 11.  export CROSS_COMPILE=aarch64-linux-gnu-
 12.  export CROSS_COMPILE_ARM32=arm-linux-gnueabi- 
 13. mkdir ../out
-14. make O=../out _defconfig
+14. make O=../out "name"_defconfig
 15. make O=../out menuconfig
 16. Device drive => 
     - [M] Realtek 8188E USB WiFi
