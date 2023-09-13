@@ -35,6 +35,6 @@
     - ` [M] Realtek 8192F/8725AU USB WiFi `
     - ` [M] Realtek 8812A USB WiFi `
     - ` [M] Realtek 8814A USB WiFi `
-17. <save>  
-18. <exit>
+17. save  
+18. exit
 19. make O=../out -j$(nproc)
