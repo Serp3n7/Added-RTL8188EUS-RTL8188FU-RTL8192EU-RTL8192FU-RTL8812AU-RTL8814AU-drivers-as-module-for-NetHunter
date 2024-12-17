@@ -1,5 +1,5 @@
 
-1.  ` git clone https://github.com/p3h3n9-pr0j3ct/Added-RTL8188EUS-RTL8188FU-RTL8192EU-RTL8192FU-RTL8812AU-RTL8814AU-drivers-as-module-for-NetHunter.git `
+1.  ` git clone https://github.com/Serp3n7/Added-RTL8188EUS-RTL8188FU-RTL8192EU-RTL8192FU-RTL8812AU-RTL8814AU-drivers-as-module-for-NetHunter.git `
 2.  cd Added-RTL8188EUS-RTL8188FU-RTL8192EU-RTL8192FU-RTL8812AU-RTL8814AU-drivers-as-module-for-NetHunter.zip
 3.  copy RTL8188EUS, RTL8188FU, RTL8192EU, RTL8192FU, RTL8812AU, RTL8814AU => Sources Kernel => drivers
 4.  cd Sources Kernel => drivers
